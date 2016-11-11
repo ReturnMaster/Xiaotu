@@ -19,5 +19,11 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <grant-uri-permission android:path="string"
+        android:pathPattern="string"
+        android:pathPrefix="string"  />
 
 </manifest>
